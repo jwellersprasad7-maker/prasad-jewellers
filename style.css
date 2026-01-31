@@ -1,81 +1,125 @@
-body {
+/* Reset */
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #000;
-  color: #f5d27a;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
 }
 
+/* Body */
+body {
+  background-color: #0b0b0b;
+  color: #f5d37b;
+  line-height: 1.6;
+}
+
+/* Header */
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 40px;
   background: #000;
-  border-bottom: 1px solid gold;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #d4af37;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+header h1 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #d4af37;
 }
 
-.logo span {
-  color: gold;
+header p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Navigation */
+nav {
+  margin-top: 15px;
 }
 
 nav a {
-  color: #f5d27a;
-  margin-left: 20px;
+  color: #f5d37b;
+  margin: 0 15px;
   text-decoration: none;
-}
-
-.hero {
-  text-align: center;
-  padding: 120px 20px;
-  background: linear-gradient(to right, #000, #1a1a1a);
-}
-
-.hero h1 {
-  font-size: 42px;
-}
-
-.hero button {
-  padding: 12px 30px;
-  background: gold;
-  border: none;
-  cursor: pointer;
   font-weight: bold;
 }
 
-section {
-  padding: 60px 40px;
+nav a:hover {
+  color: #ffffff;
 }
 
-h2 {
+/* Hero Section */
+.hero {
+  padding: 60px 20px;
   text-align: center;
-  color: gold;
+  background: linear-gradient(to bottom, #000, #111);
 }
 
-.grid {
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ddd;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #d4af37;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background: #f5d37b;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d4af37;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Cards */
+.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  margin-top: 20px;
 }
 
 .card {
   background: #111;
-  padding: 40px;
+  padding: 20px;
+  border: 1px solid #222;
   text-align: center;
-  border: 1px solid gold;
 }
 
-iframe {
-  width: 100%;
-  height: 300px;
-  border: none;
+.card:hover {
+  border-color: #d4af37;
 }
 
+/* Footer */
 footer {
+  background: #000;
   text-align: center;
   padding: 20px;
-  background: #111;
+  font-size: 14px;
+  border-top: 1px solid #d4af37;
 }
