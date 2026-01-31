@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prasad Jewellers | Gold • Silver • Diamond</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">PRASAD <span>JEWELLERS</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#collections">Collections</a>
+    <a href="#policy">Returns</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Exquisite Jewellery<br>For Every Occasion</h1>
+  <p>Gold • Silver • Diamond</p>
+  <button>Shop Now</button>
+</section>
+
+<section id="about">
+  <h2>About Prasad Jewellers</h2>
+  <p>
+    Prasad Jewellers is a trusted jewellery brand based in <b>Darbhanga, Bihar</b>.
+    We specialize in premium Gold, Silver, and Diamond jewellery crafted with
+    precision, purity, and elegance.
+  </p>
+</section>
+
+<section id="collections">
+  <h2>Our Collections</h2>
+  <div class="grid">
+    <div class="card">Gold Jewellery</div>
+    <div class="card">Diamond Collection</div>
+    <div class="card">Silver Ornaments</div>
+    <div class="card">Bridal Sets</div>
+    <div class="card">Rings</div>
+    <div class="card">Earrings</div>
+  </div>
+</section>
+
+<section id="policy">
+  <h2>Return & Exchange Policy</h2>
+  <p><b>Returns accepted only for:</b></p>
+  <ul>
+    <li>Manufacturing defects</li>
+    <li>Wrong product delivered</li>
+    <li>Transit damage (reported within 24 hours)</li>
+  </ul>
+
+  <p><b>Not eligible for return:</b></p>
+  <ul>
+    <li>Used or worn jewellery</li>
+    <li>Customized jewellery</li>
+    <li>Price fluctuation</li>
+  </ul>
+
+  <p>
+    Refunds processed after quality check.
+    Making charges, GST & shipping are non-refundable.
+  </p>
+
+  <p><b>Jurisdiction:</b> Darbhanga, Bihar</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><b>Prasad Jewellers</b></p>
+  <p>📍 Darbhanga, Bihar</p>
+  <p>📞 +91 XXXXXXXXXX</p>
+  <p>📧 info@prasadjewellers.com</p>
+
+  <iframe
+    src="https://maps.google.com/maps?q=Darbhanga&t=&z=13&ie=UTF8&iwloc=&output=embed">
+  </iframe>
+</section>
+
+<footer>
+  <p>© 2026 Prasad Jewellers. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

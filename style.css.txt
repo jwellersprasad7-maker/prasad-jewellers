@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #f5d27a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #000;
+  border-bottom: 1px solid gold;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: gold;
+}
+
+nav a {
+  color: #f5d27a;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(to right, #000, #1a1a1a);
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero button {
+  padding: 12px 30px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+h2 {
+  text-align: center;
+  color: gold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid gold;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
