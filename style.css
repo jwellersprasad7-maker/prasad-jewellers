@@ -1,39 +1,46 @@
-/* Luxury Base */
-body {
+:root {
+  --cream: #faf7f2;
+  --soft-gold: #c8a45d;
+  --dark-text: #2b2b2b;
+  --muted-text: #6b6b6b;
+}
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cream);
+  color: var(--dark-text);
   font-family: 'Inter', sans-serif;
-  background-color: #FAF7F2;
-  color: #2B2B2B;
   line-height: 1.7;
 }
 
-/* Header */
-header {
+/* HEADER */
+.header {
   text-align: center;
-  padding: 50px 20px 30px;
-  border-bottom: 1px solid #E6DDC8;
+  padding: 60px 20px 40px;
 }
 
-header h1 {
+.header h1 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 42px;
   letter-spacing: 2px;
-  margin-bottom: 5px;
 }
 
-header p {
-  color: #9E7C3A;
-  font-size: 14px;
+.tagline {
+  margin-top: 10px;
+  color: var(--soft-gold);
   letter-spacing: 3px;
-  text-transform: uppercase;
+  font-size: 14px;
 }
 
-/* Hero Section */
+/* HERO */
 .hero {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
   text-align: center;
+  padding: 80px 20px;
 }
 
 .hero h2 {
@@ -43,46 +50,87 @@ header p {
 }
 
 .hero p {
-  font-size: 16px;
-  color: #444;
+  max-width: 650px;
+  margin: 0 auto 35px;
+  color: var(--muted-text);
 }
 
-/* Buttons */
-.button {
+/* BUTTONS */
+.btn-primary,
+.btn-secondary {
   display: inline-block;
-  margin-top: 30px;
   padding: 14px 36px;
+  border-radius: 40px;
   text-decoration: none;
-  color: white;
-  background-color: #C6A15B;
-  border-radius: 30px;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: all 0.3s ease;
 }
 
-.button:hover {
-  background-color: #9E7C3A;
+.btn-primary {
+  background: var(--soft-gold);
+  color: white;
 }
 
-/* Sections */
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  border: 1px solid var(--soft-gold);
+  color: var(--soft-gold);
+}
+
+.btn-secondary:hover {
+  background: var(--soft-gold);
+  color: white;
+}
+
+/* SECTIONS */
 .section {
-  max-width: 900px;
-  margin: 70px auto;
-  padding: 0 20px;
-}
-
-.section h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-
-/* Footer */
-.footer {
+  padding: 70px 20px;
   text-align: center;
+}
+
+.section h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  max-width: 700px;
+  margin: auto;
+  color: var(--muted-text);
+}
+
+.soft-bg {
+  background: #f3efe7;
+}
+
+/* STEPS */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  font-size: 15px;
+  color: var(--dark-text);
+}
+
+/* FOOTER */
+.footer {
   padding: 30px;
+  text-align: center;
   font-size: 13px;
-  color: #777;
-  border-top: 1px solid #E6DDC8;
+  color: var(--muted-text);
+}
+
+/* MOBILE */
+@media (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
 }
