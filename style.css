@@ -1,96 +1,88 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Luxury Base */
 body {
-  body {
-  background: linear-gradient(180deg, #0e0e0e, #0a0a0a);
-  color: var(--text-main);
+  margin: 0;
   font-family: 'Inter', sans-serif;
-  letter-spacing: 0.3px;
-}
+  background-color: #FAF7F2;
+  color: #2B2B2B;
+  line-height: 1.7;
 }
 
+/* Header */
 header {
-  padding: 30px 20px;
   text-align: center;
-  border-bottom: 1px solid #3b2f1e;
+  padding: 50px 20px 30px;
+  border-bottom: 1px solid #E6DDC8;
 }
 
 header h1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 36px;
-  letter-spacing: 3px;
-  color: #c9a24d;
+  font-size: 42px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
 }
 
 header p {
+  color: #9E7C3A;
   font-size: 14px;
-  letter-spacing: 2px;
-  margin-top: 6px;
-  color: #eae6df;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
+/* Hero Section */
 .hero {
-  padding: 90px 20px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
   text-align: center;
 }
 
 .hero h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 34px;
-  color: #c9a24d;
-  margin-bottom: 15px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .hero p {
-  max-width: 640px;
-  margin: auto;
   font-size: 16px;
-  color: #d6d1c7;
+  color: #444;
 }
 
+/* Buttons */
 .button {
   display: inline-block;
-  margin-top: 35px;
+  margin-top: 30px;
   padding: 14px 36px;
-  border: 1px solid #c9a24d;
-  color: #c9a24d;
   text-decoration: none;
+  color: white;
+  background-color: #C6A15B;
+  border-radius: 30px;
   font-size: 14px;
-  letter-spacing: 1px;
-  transition: 0.3s ease;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
 }
 
 .button:hover {
-  background: #c9a24d;
-  color: #0b0b0b;
+  background-color: #9E7C3A;
 }
 
+/* Sections */
 .section {
-  padding: 80px 20px;
-  text-align: center;
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 0 20px;
 }
 
 .section h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
-  color: #c9a24d;
   margin-bottom: 15px;
 }
 
-.section p {
-  max-width: 600px;
-  margin: auto;
-  color: #d6d1c7;
-}
-
+/* Footer */
 .footer {
-  border-top: 1px solid #3b2f1e;
-  padding: 30px 20px;
   text-align: center;
+  padding: 30px;
   font-size: 13px;
-  color: #aaa;
+  color: #777;
+  border-top: 1px solid #E6DDC8;
 }
