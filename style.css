@@ -5,10 +5,12 @@
 }
 
 body {
-  background: #0b0b0b;
-  color: #eae6df;
+  body {
+  background: linear-gradient(180deg, #0e0e0e, #0a0a0a);
+  color: var(--text-main);
   font-family: 'Inter', sans-serif;
-  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
 }
 
 header {
