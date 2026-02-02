@@ -311,3 +311,30 @@ nav a:hover::after {
   background: #b89b5e;
   color: #fff;
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+  background: #faf7f2;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.testimonial-box {
+  max-width: 800px;
+  margin: auto;
+}
+
+.testimonial .quote {
+  font-size: 20px;
+  line-height: 1.6;
+  font-style: italic;
+  color: #333;
+}
+
+.testimonial .author {
+  display: block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #8a7a55;
+  letter-spacing: 0.5px;
+}
