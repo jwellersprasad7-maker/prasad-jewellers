@@ -297,3 +297,17 @@ nav a:hover::after {
   width: 30px;
   height: 30px;
 }
+
+.map a {
+  display: inline-block;
+  padding: 14px 28px;
+  border: 1px solid #b89b5e;
+  color: #b89b5e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.map a:hover {
+  background: #b89b5e;
+  color: #fff;
+}
