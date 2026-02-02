@@ -20,7 +20,10 @@ body {
 }
 
 .logo {
-  height: 55px;
+  height: 60px;
+  width: auto;
+  display: block;
+}
 }
 
 nav a {
