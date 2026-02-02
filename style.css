@@ -1,112 +1,78 @@
+/* RESET */
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #FBF7F2;
-  color: #2B2B2B;
+  font-family: "Georgia", serif;
+  background-color: #f7f2eb;
+  color: #333;
 }
 
 /* HEADER */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 60px;
+.site-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f7f2eb;
 }
 
 .logo {
-  max-width: 180px;
+  max-width: 280px;
 }
 
-nav a {
-  margin-left: 25px;
+.tagline {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.nav a {
   text-decoration: none;
-  color: #2B2B2B;
-  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #b2965d;
 }
 
 /* HERO */
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
+  background: linear-gradient(#f7f2eb, #ffffff);
 }
 
 .hero h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 48px;
+  font-size: 36px;
   margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 16px;
-  margin-bottom: 30px;
-}
-
-.btn {
-  padding: 12px 30px;
-  border: 1px solid #C2A24D;
-  text-decoration: none;
-  color: #2B2B2B;
-}
-
-/* SECTIONS */
-section {
-  padding: 80px 60px;
-  text-align: center;
-}
-
-h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-/* WHY */
-.why-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-/* COLLECTIONS */
-.collection-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 25px;
-}
-
-.note {
-  margin-top: 30px;
-  font-style: italic;
-}
-
-/* PROCESS */
-.process ol {
-  max-width: 500px;
-  margin: auto;
-  text-align: left;
+  font-size: 18px;
+  color: #555;
 }
 
 /* TRUST */
-.trust p {
-  max-width: 700px;
-  margin: auto;
-}
-
-/* ABOUT */
-.about p {
-  max-width: 700px;
-  margin: auto;
-}
-
-/* CONTACT */
-.contact p {
-  margin: 8px 0;
+.trust {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  background-color: #ffffff;
+  font-weight: 500;
 }
 
 /* FOOTER */
-footer {
-  padding: 30px;
+.footer {
   text-align: center;
+  padding: 20px;
+  background-color: #f7f2eb;
   font-size: 14px;
-  border-top: 1px solid #E6DCCB;
 }
